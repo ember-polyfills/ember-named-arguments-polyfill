@@ -1,13 +1,14 @@
 {
   "name": "ember-named-arguments-polyfill",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Polyfills support for named arguments for Ember 2.10 through 3.0.",
   "keywords": [
     "ember-addon"
   ],
-  "repository": "",
+  "repository": "git@github.com:rwjblue/ember-named-arguments-polyfill.git",
   "license": "MIT",
-  "author": "",
+  "author": "Robert Jackson <me@rwjblue.com>",
+  "main": "index.js",
   "directories": {
     "doc": "doc",
     "test": "tests"
