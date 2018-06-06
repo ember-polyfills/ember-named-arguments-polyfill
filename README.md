@@ -3,6 +3,8 @@ ember-named-arguments-polyfill
 
 Polyfills the [named arguments feature](https://github.com/emberjs/rfcs/blob/master/text/0276-named-args.md) to work for Ember 2.10+. This is convienient for addon authors to be able to start leveraging named arguments without requiring that all of its users are on Ember 3.1 or higher.
 
+[![Build Status](https://travis-ci.org/rwjblue/ember-named-arguments-polyfill.svg?branch=master)](https://travis-ci.org/rwjblue/ember-named-arguments-polyfill)
+
 Installation
 ------------------------------------------------------------------------------
 
