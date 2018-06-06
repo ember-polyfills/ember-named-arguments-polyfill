@@ -1,7 +1,7 @@
 ember-named-arguments-polyfill
 ==============================================================================
 
-[Short description of the addon.]
+Polyfills the [named arguments feature](https://github.com/emberjs/rfcs/blob/master/text/0276-named-args.md) to work for Ember 2.10+. This is convienient for addon authors to be able to start leveraging named arguments without requiring that all of its users are on Ember 3.1 or higher.
 
 Installation
 ------------------------------------------------------------------------------
@@ -14,8 +14,16 @@ ember install ember-named-arguments-polyfill
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+"Just use them!"
 
+
+In a component's template that receives an argument named `foo` you can now do:
+
+```hbs
+{{@foo}}
+```
+
+🎉
 
 Contributing
 ------------------------------------------------------------------------------
